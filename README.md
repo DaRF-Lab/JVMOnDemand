@@ -2,7 +2,7 @@
 
 The biggest problem of Java Desktop Application is using Java Virtual Machine. Users have to install JVM before using the application. To resolve the problem, JVMOnDemand will automatically install OpenJDK on Mac under user's permission.
 
-jvminit.bash will automatically launched and will check if ```java``` command is available or not. If not, it will install OpenJDK 17.0.2 and launch the Jar application.
+jvminit.bash will automatically launched and will check if ```java``` command is available or not. If not, it will install OpenJDK 18.0.1.1 and launch the Jar application.
 
 
 
