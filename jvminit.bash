@@ -14,9 +14,9 @@ if [[ ! -f /Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home/bin/
 
     # Install OpenJDK 18.0.1.1
     if [[ -z "$(uname -a | grep "X86_64")" ]]; then       # aarch64 system
-        curl -L --progress-bar "https://download.java.net/java/GA/jdk18.0.1.1/65ae32619e2f40f3a9af3af1851d6e19/2/GPL/openjdk-18.0.1.1_macos-x64_bin.tar.gz" -o "/tmp/openjdk.tar.gz"
-    else                                                  # x86_64 system
         curl -L --progress-bar "https://download.java.net/java/GA/jdk18.0.1.1/65ae32619e2f40f3a9af3af1851d6e19/2/GPL/openjdk-18.0.1.1_macos-aarch64_bin.tar.gz" -o "/tmp/openjdk.tar.gz"
+    else                                                  # x86_64 system
+        curl -L --progress-bar "https://download.java.net/java/GA/jdk18.0.1.1/65ae32619e2f40f3a9af3af1851d6e19/2/GPL/openjdk-18.0.1.1_macos-x64_bin.tar.gz" -o "/tmp/openjdk.tar.gz"        
     fi
 
 
